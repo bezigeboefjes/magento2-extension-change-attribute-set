@@ -1,6 +1,6 @@
 {
-    "name": "ibnab/magento2-extension-change-attribute-set",
-    "description": "extension for change product attribute set in magento 2",
+    "name": "bezigeboefjes/magento2-extension-change-attribute-set",
+    "description": "Extension for change product attribute set in magento 2",
     "type": "magento2-module",
     "version": "1.0.0",
     "license": [
@@ -8,15 +8,13 @@
         "AFL-3.0"
     ],
     "require": {
-        "php": "~5.5.0|~5.6.0",
+        "php": "~5.5.0|~5.6.0|~7.0.0",
         "magento/magento-composer-installer": "*"
     },
-    "extra": {
-        "map": [
-            [
-                "*",
-                "Ibnab/ChangeAttributeSet"
-            ]
-        ]
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Bezigeboefjes\\ChangeAttributeSet\\": ""
     }
+  }
 }

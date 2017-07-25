@@ -4,7 +4,7 @@
  * Copyright © 2015 Magento. All rights reserved.
  * See COPYING.txt for license details.
  */
-namespace Ibnab\ChangeAttributeSet\Controller\Adminhtml\Product;
+namespace Bezigeboefjes\ChangeAttributeSet\Controller\Adminhtml\Product;
 
 use Magento\Framework\Controller\ResultFactory;
 use Magento\Catalog\Controller\Adminhtml\Product\Builder;

@@ -6,6 +6,6 @@
 
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'Ibnab_ChangeAttributeSet',
+    'Bezigeboefjes_ChangeAttributeSet',
     __DIR__
 );

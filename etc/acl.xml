@@ -13,7 +13,7 @@
                     <resource id="Magento_Backend::stores_settings">
                         <resource id="Magento_Config::config">
                             <!-- this resource id we can use in system.xml for section -->
-                            <resource id="Ibnab_ChangeAttributeSet::config_changeattributeset" title="Change Attribute Set" sortOrder="80" />
+                            <resource id="Bezigeboefjes_ChangeAttributeSet::config_changeattributeset" title="Change Attribute Set" sortOrder="80" />
                         </resource>
                     </resource>
                 </resource>
